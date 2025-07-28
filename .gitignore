@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# UV
+.venv/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test server
+test_server.py
+
+# Temporary files
+*.tmp
+*.bak
+
+# Claude configuration
+CLAUDE.md

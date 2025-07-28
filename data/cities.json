@@ -1,0 +1,102 @@
+[
+  {
+    "name": "New York City",
+    "country": "USA",
+    "population": 8336817
+  },
+  {
+    "name": "Los Angeles",
+    "country": "USA",
+    "population": 3898747
+  },
+  {
+    "name": "Chicago",
+    "country": "USA",
+    "population": 2746388
+  },
+  {
+    "name": "Houston",
+    "country": "USA",
+    "population": 2304580
+  },
+  {
+    "name": "Phoenix",
+    "country": "USA",
+    "population": 1608139
+  },
+  {
+    "name": "Philadelphia",
+    "country": "USA",
+    "population": 1603797
+  },
+  {
+    "name": "San Antonio",
+    "country": "USA",
+    "population": 1434625
+  },
+  {
+    "name": "San Diego",
+    "country": "USA",
+    "population": 1386932
+  },
+  {
+    "name": "Dallas",
+    "country": "USA",
+    "population": 1304379
+  },
+  {
+    "name": "San Jose",
+    "country": "USA",
+    "population": 1013240
+  },
+  {
+    "name": "Tokyo",
+    "country": "Japan",
+    "population": 37435191
+  },
+  {
+    "name": "Delhi",
+    "country": "India",
+    "population": 32065760
+  },
+  {
+    "name": "Shanghai",
+    "country": "China",
+    "population": 28516904
+  },
+  {
+    "name": "Dhaka",
+    "country": "Bangladesh",
+    "population": 22478116
+  },
+  {
+    "name": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "population": 22429800
+  },
+  {
+    "name": "Cairo",
+    "country": "Egypt",
+    "population": 21750020
+  },
+  {
+    "name": "Mexico City",
+    "country": "Mexico",
+    "population": 21918936
+  },
+  {
+    "name": "Beijing",
+    "country": "China",
+    "population": 21893095
+  },
+  {
+    "name": "Mumbai",
+    "country": "India",
+    "population": 20961472
+  },
+  {
+    "name": "Osaka",
+    "country": "Japan",
+    "population": 19059856
+  }
+]

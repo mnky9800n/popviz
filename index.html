@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US County Population Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>US County Population Comparison</h1>
+            <div id="city-selector">
+                <label for="city-select">Compare to city: </label>
+                <select id="city-select"></select>
+            </div>
+            <div id="info">
+                <span id="city-info"></span>
+            </div>
+        </div>
+        <div id="map-container">
+            <svg id="map"></svg>
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+    </div>
+    <script src="visualization.js"></script>
+</body>
+</html>

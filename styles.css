@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#header {
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+#header h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+#city-selector {
+    margin-bottom: 15px;
+}
+
+#city-selector label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#city-select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+#info {
+    font-size: 18px;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+#map-container {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+#map {
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.county {
+    fill: #e0e0e0;
+    stroke: #fff;
+    stroke-width: 0.5px;
+    cursor: pointer;
+    transition: fill 0.2s ease;
+}
+
+.county:hover {
+    fill: #bdbdbd;
+}
+
+.county.hovered {
+    fill: #ffeb3b;
+    stroke: #f57f17;
+    stroke-width: 1px;
+}
+
+.county.selected {
+    fill: #4CAF50;
+    stroke: #2E7D32;
+    stroke-width: 0.5px;
+}
+
+.state-borders {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* Responsive design */
+@media (max-width: 1000px) {
+    #map {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -34,6 +34,16 @@ Promise.all([
     document.getElementById('city-select').value = selectedCity.name;
     updateCityInfo();
     updateMap();
+    
+    // Handle window resize
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            d3.select('#map').selectAll('*').remove();
+            initMap();
+        }, 250);
+    });
 });
 
 function initCitySelector() {
@@ -53,8 +63,11 @@ function initCitySelector() {
 }
 
 function initMap() {
-    const width = 960;
-    const height = 600;
+    // Get container dimensions
+    const container = document.getElementById('map-container');
+    const containerRect = container.getBoundingClientRect();
+    const width = Math.min(960, containerRect.width - 40);
+    const height = Math.min(600, containerRect.height - 40);
     
     svg = d3.select('#map')
         .attr('width', width)
@@ -62,7 +75,7 @@ function initMap() {
     
     // Create projection for lower 48 states
     const projection = d3.geoAlbersUsa()
-        .scale(1200)
+        .scale(width * 1.25)
         .translate([width / 2, height / 2]);
     
     path = d3.geoPath().projection(projection);

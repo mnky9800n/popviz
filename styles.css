@@ -86,7 +86,8 @@ body {
 .county.hovered {
     fill: #ffeb3b;
     stroke: #f57f17;
-    stroke-width: 1px;
+    stroke-width: 2px;
+    stroke-opacity: 1;
 }
 
 .county.selected {

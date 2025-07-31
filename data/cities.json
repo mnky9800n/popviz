@@ -98,5 +98,10 @@
     "name": "Osaka",
     "country": "Japan",
     "population": 19059856
+  },
+  {
+    "name": "Moscow",
+    "country": "Russia",
+    "population": 12680389
   }
 ]

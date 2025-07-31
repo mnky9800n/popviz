@@ -95,7 +95,8 @@ def download_city_data():
         {"name": "Mexico City", "country": "Mexico", "population": 21918936},
         {"name": "Beijing", "country": "China", "population": 21893095},
         {"name": "Mumbai", "country": "India", "population": 20961472},
-        {"name": "Osaka", "country": "Japan", "population": 19059856}
+        {"name": "Osaka", "country": "Japan", "population": 19059856},
+        {"name": "Moscow", "country": "Russia", "population": 12680389}
     ]
     
     # Combine all cities
